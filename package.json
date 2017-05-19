@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf ./dist/ && webpack && open index.html"
+    "build": "rm -rf ./dist/ && rm -rf ./tsDist && tsc && webpack && open index.html"
   },
   "author": "",
   "license": "MIT",
